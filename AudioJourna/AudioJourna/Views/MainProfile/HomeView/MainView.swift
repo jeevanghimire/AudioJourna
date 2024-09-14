@@ -4,25 +4,51 @@ struct MainView: View {
     @State private var showMenu = false
     @State private var selectionTab = 0
     @State private var NavigationSelectionTab: SideMenuOptionModel = .DashBoard
+    @State private var selectedDate: Date = Date()
 
     var body: some View {
         NavigationStack {
             ZStack {
-                TabView(selection: $selectionTab) {
-                    ForEach(SideMenuOptionModel.allCases) { option in
-                        Text(option.title)
-                            .tag(option.rawValue)
-                            .onChange(of: selectionTab) { newValue in
-                                if let selectedOption = SideMenuOptionModel(rawValue: newValue) {
-                                    NavigationSelectionTab = selectedOption
-                                }
+                // Background color for the entire view, ignoring safe area
+                Color(red: 243/255, green: 241/255, blue: 205/255)
+                    .ignoresSafeArea()
+
+                if showMenu {
+                    // Only show the toolbar when menu is triggered (showMenu = true)
+                    SideMenu(isShowing: $showMenu, SelectedTab: $selectionTab, onOptionSelect: { option in
+                                        NavigationSelectionTab = option
+                                    })
+                } else {
+                    // Normal view with TabView, Calendar, and other components when showMenu is false
+                    VStack {
+                        // Welcome and Magnifying Glass
+                        
+                        HStack {
+                            
+                            Text("WELCOME")
+                                .font(.system(size: 35))
+                                .padding(.leading)
+                                .fontWeight(.heavy)
+
+                            Spacer()
+
+                            NavigationLink(destination: TagSearch()){
+                                Image(systemName: "magnifyingglass")
+                                    .font(.system(size: 35))
+                                    .foregroundStyle(Color.brown)
                             }
+                            .padding(.trailing)
+                        }
+                        .padding(.top)
+
+                        Spacer()
+
+                        // CalendarView integrated here
+                        CalendarGridView(selectedDate: $selectedDate)
+                            .padding(.bottom)
+                        Spacer(minLength: 320)
                     }
                 }
-                
-                SideMenu(isShowing: $showMenu, SelectedTab: $selectionTab, onOptionSelect: { option in
-                    NavigationSelectionTab = option
-                })
             }
             .toolbar(showMenu ? .hidden : .visible, for: .navigationBar)
             .navigationTitle(NavigationSelectionTab.title)
@@ -38,15 +64,12 @@ struct MainView: View {
                     })
                 }
             }
-            
-          
-                
-            
-            
-            
-            
-            
         }
+    }
+
+    // Sample method for tag search
+    func tagSearch() {
+        print("Tag search triggered")
     }
 }
 

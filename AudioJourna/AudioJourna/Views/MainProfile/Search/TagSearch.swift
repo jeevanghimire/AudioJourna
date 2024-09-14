@@ -12,7 +12,8 @@ struct TagSearch: View {
             NavigationStack{
                 Text("Hello World")
                 
-            }.navigationTitle("Search")
+            }
+            .navigationTitle("Search")
             .searchable(text: $SearchTag,prompt: "Search Tag")
         }
     }

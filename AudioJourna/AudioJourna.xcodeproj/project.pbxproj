@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -251,6 +251,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
@@ -272,6 +275,7 @@
 				D1770C2C2C937720005EE63A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				D1C8B6442C95F72100FA3F69 /* XCRemoteSwiftPackageReference "HorizontalCalendar" */,
 				D1A453D72C95F99F001A0812 /* XCRemoteSwiftPackageReference "CalendarView" */,
+				D19BCB352C95FCFB0055EDD7 /* XCLocalSwiftPackageReference "../../../../Downloads/CalendarView-main" */,
 			);
 			productRefGroup = D19D14552C936846004793CD /* Products */;
 			projectDirPath = "";
@@ -529,6 +533,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D19BCB352C95FCFB0055EDD7 /* XCLocalSwiftPackageReference "../../../../Downloads/CalendarView-main" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../../Downloads/CalendarView-main";
+		};
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
 		D1770C2C2C937720005EE63A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
