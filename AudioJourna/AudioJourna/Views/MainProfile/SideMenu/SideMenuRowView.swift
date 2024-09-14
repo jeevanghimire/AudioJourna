@@ -8,11 +8,33 @@
 import SwiftUI
 
 struct SideMenuRowView: View {
+    let option: SideMenuOptionModel
+    @Binding var SelectedOption: SideMenuOptionModel?
+    
+    private var isSelected: Bool{
+        return SelectedOption == option
+    }
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(systemName:option.systemImageName)
+                .foregroundStyle(Color.brown)
+                .imageScale(.medium)
+            
+            
+            Text(option.title)
+                .font(.headline)
+            Spacer()
+        }
+        .padding(.leading)
+        .foregroundStyle(isSelected ? Color.brown : .primary)
+        .frame(height: 44)
+        .background(isSelected ? Color.brown.opacity(0.25): .clear)
+        .clipShape(RoundedRectangle(cornerRadius: 10))
     }
 }
 
 #Preview {
-    SideMenuRowView()
+    SideMenuRowView(option: .Home,SelectedOption: .constant(.DashBoard))
 }

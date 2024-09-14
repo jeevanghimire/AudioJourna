@@ -1,15 +1,35 @@
-//
-//  MainView.swift
-//  AudioJourna
-//
-//  Created by Jeevan Ghimire on 9/14/24.
-//
-
 import SwiftUI
 
 struct MainView: View {
+    @State private var showMenu = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            
+            ZStack {
+                
+                VStack{
+                    Text("Hello")
+                    
+                }
+                SideMenu(isShowing: $showMenu)
+            }
+            .toolbar(showMenu ? .hidden : .visible , for: .navigationBar)
+            .navigationTitle("Home")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar{
+                ToolbarItem(placement: .topBarLeading) {
+                    Button(action: {
+                        showMenu.toggle()
+                    }, label: {
+                        Image(systemName:"line.3.horizontal")
+                            .bold()
+                            .foregroundStyle(.brown)
+                        
+                    })
+                }
+            }
+            
+        }
     }
 }
 

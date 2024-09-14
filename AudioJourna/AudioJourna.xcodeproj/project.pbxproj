@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1770C292C936D97005EE63A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1770C282C936D97005EE63A /* LaunchScreen.storyboard */; };
+		D1770C2B2C9374A8005EE63A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1770C2A2C9374A8005EE63A /* AuthManager.swift */; };
 		D19D14582C936846004793CD /* AudioJournaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D14572C936846004793CD /* AudioJournaApp.swift */; };
-		D19D145A2C936846004793CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D14592C936846004793CD /* ContentView.swift */; };
 		D19D145C2C936849004793CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19D145B2C936849004793CD /* Assets.xcassets */; };
 		D19D145F2C936849004793CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19D145E2C936849004793CD /* Preview Assets.xcassets */; };
+		D1C860492C93E03B0026A231 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C860482C93E03B0026A231 /* SideMenu.swift */; };
+		D1C8604F2C95259B0026A231 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8604E2C95259B0026A231 /* SignUpPage.swift */; };
+		D1C860512C9525E10026A231 /* LoginOrSignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C860502C9525E10026A231 /* LoginOrSignUpPage.swift */; };
+		D1C860532C95260D0026A231 /* LoginInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C860522C95260D0026A231 /* LoginInPage.swift */; };
+		D1C860552C952A2B0026A231 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C860542C952A2B0026A231 /* MainView.swift */; };
+		D1C860572C95403E0026A231 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C860562C95403E0026A231 /* SideMenuHeaderView.swift */; };
+		D1C8605B2C9548900026A231 /* sideMenuOptionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8605A2C9548900026A231 /* sideMenuOptionModels.swift */; };
+		D1C8605D2C954C160026A231 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8605C2C954C160026A231 /* SideMenuRowView.swift */; };
+		D1C8605F2C9574420026A231 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8605E2C9574420026A231 /* ForgotPassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1770C282C936D97005EE63A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1770C2A2C9374A8005EE63A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		D19D14542C936846004793CD /* AudioJourna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioJourna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19D14572C936846004793CD /* AudioJournaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioJournaApp.swift; sourceTree = "<group>"; };
-		D19D14592C936846004793CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D19D145B2C936849004793CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D19D145E2C936849004793CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1C860482C93E03B0026A231 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		D1C8604E2C95259B0026A231 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		D1C860502C9525E10026A231 /* LoginOrSignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOrSignUpPage.swift; sourceTree = "<group>"; };
+		D1C860522C95260D0026A231 /* LoginInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInPage.swift; sourceTree = "<group>"; };
+		D1C860542C952A2B0026A231 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D1C860562C95403E0026A231 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		D1C8605A2C9548900026A231 /* sideMenuOptionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuOptionModels.swift; sourceTree = "<group>"; };
+		D1C8605C2C954C160026A231 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
+		D1C8605E2C9574420026A231 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1770C232C9368A9005EE63A /* ViewsModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewsModels;
+			sourceTree = "<group>";
+		};
 		D19D144B2C936846004793CD = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +78,12 @@
 		D19D14562C936846004793CD /* AudioJourna */ = {
 			isa = PBXGroup;
 			children = (
-				D19D14572C936846004793CD /* AudioJournaApp.swift */,
-				D19D14592C936846004793CD /* ContentView.swift */,
+				D1770C232C9368A9005EE63A /* ViewsModels */,
+				D19D14662C936879004793CD /* Views */,
+				D19D14652C936873004793CD /* Models */,
 				D19D145B2C936849004793CD /* Assets.xcassets */,
 				D19D145D2C936849004793CD /* Preview Content */,
+				D1770C282C936D97005EE63A /* LaunchScreen.storyboard */,
 			);
 			path = AudioJourna;
 			sourceTree = "<group>";
@@ -65,6 +94,63 @@
 				D19D145E2C936849004793CD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D19D14652C936873004793CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D1C860592C95487E0026A231 /* sideMenuModels */,
+				D19D14572C936846004793CD /* AudioJournaApp.swift */,
+				D1770C2A2C9374A8005EE63A /* AuthManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D19D14662C936879004793CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1C8604C2C9524490026A231 /* LoginInViews */,
+				D1C8604D2C9524A80026A231 /* MainProfile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1C8604C2C9524490026A231 /* LoginInViews */ = {
+			isa = PBXGroup;
+			children = (
+				D1C8604E2C95259B0026A231 /* SignUpPage.swift */,
+				D1C860522C95260D0026A231 /* LoginInPage.swift */,
+				D1C8605E2C9574420026A231 /* ForgotPassword.swift */,
+				D1C860502C9525E10026A231 /* LoginOrSignUpPage.swift */,
+			);
+			path = LoginInViews;
+			sourceTree = "<group>";
+		};
+		D1C8604D2C9524A80026A231 /* MainProfile */ = {
+			isa = PBXGroup;
+			children = (
+				D1C860582C9548170026A231 /* SideMenu */,
+				D1C860542C952A2B0026A231 /* MainView.swift */,
+			);
+			path = MainProfile;
+			sourceTree = "<group>";
+		};
+		D1C860582C9548170026A231 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D1C860482C93E03B0026A231 /* SideMenu.swift */,
+				D1C8605C2C954C160026A231 /* SideMenuRowView.swift */,
+				D1C860562C95403E0026A231 /* SideMenuHeaderView.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		D1C860592C95487E0026A231 /* sideMenuModels */ = {
+			isa = PBXGroup;
+			children = (
+				D1C8605A2C9548900026A231 /* sideMenuOptionModels.swift */,
+			);
+			path = sideMenuModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +197,9 @@
 				Base,
 			);
 			mainGroup = D19D144B2C936846004793CD;
+			packageReferences = (
+				D1770C2C2C937720005EE63A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D19D14552C936846004793CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D19D145F2C936849004793CD /* Preview Assets.xcassets in Resources */,
+				D1770C292C936D97005EE63A /* LaunchScreen.storyboard in Resources */,
 				D19D145C2C936849004793CD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +227,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19D145A2C936846004793CD /* ContentView.swift in Sources */,
+				D1C8605B2C9548900026A231 /* sideMenuOptionModels.swift in Sources */,
+				D1C860552C952A2B0026A231 /* MainView.swift in Sources */,
+				D1C860532C95260D0026A231 /* LoginInPage.swift in Sources */,
+				D1770C2B2C9374A8005EE63A /* AuthManager.swift in Sources */,
+				D1C860492C93E03B0026A231 /* SideMenu.swift in Sources */,
 				D19D14582C936846004793CD /* AudioJournaApp.swift in Sources */,
+				D1C860572C95403E0026A231 /* SideMenuHeaderView.swift in Sources */,
+				D1C8605D2C954C160026A231 /* SideMenuRowView.swift in Sources */,
+				D1C8604F2C95259B0026A231 /* SignUpPage.swift in Sources */,
+				D1C860512C9525E10026A231 /* LoginOrSignUpPage.swift in Sources */,
+				D1C8605F2C9574420026A231 /* ForgotPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,15 +368,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AudioJourna/Preview Content\"";
 				DEVELOPMENT_TEAM = 568SNGB3DW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -298,15 +400,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AudioJourna/Preview Content\"";
 				DEVELOPMENT_TEAM = 568SNGB3DW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,6 +449,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1770C2C2C937720005EE63A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = D19D144C2C936846004793CD /* Project object */;
 }

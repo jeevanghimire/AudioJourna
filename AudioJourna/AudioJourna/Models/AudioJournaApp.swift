@@ -11,7 +11,11 @@ import SwiftUI
 struct AudioJournaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                LoginOrSignUpPage()
+            }
+            
+           // ContentView()
         }
     }
 }
