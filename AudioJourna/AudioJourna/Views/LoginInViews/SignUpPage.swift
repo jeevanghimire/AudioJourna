@@ -30,7 +30,7 @@ struct SignUpPage: View {
                 // First Name
                 HStack {
                     Image(systemName: "person.fill")
-                        
+                        .foregroundColor(.brown)
                     TextField("Enter Your First Name", text: $user.firstName)
                         .padding(.vertical, 10)
                         .padding(.horizontal)
@@ -42,7 +42,7 @@ struct SignUpPage: View {
                 // Last Name
                 HStack {
                     Image(systemName: "person.fill")
-                        
+                        .foregroundColor(.brown)
                     TextField("Enter Your Last Name", text: $user.lastName)
                         .padding(.vertical, 10)
                         .padding(.horizontal)
@@ -55,6 +55,7 @@ struct SignUpPage: View {
                 HStack {
                     Image(systemName: "envelope.fill")
                         .frame(width: 20)
+                        .foregroundColor(.brown)
                         
                     TextField("Enter Your Email", text: $user.email)
                         
@@ -68,6 +69,7 @@ struct SignUpPage: View {
                 // Password
                 HStack {
                     Image(systemName: "lock.fill")
+                        .foregroundColor(.brown)
                         
                     SecureField("Enter Your Password", text: $user.password)
                         .padding(.vertical, 10)

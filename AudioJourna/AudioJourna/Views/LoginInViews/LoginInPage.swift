@@ -54,6 +54,7 @@ struct LoginInPage: View {
                         TextField("Email...", text: $user.email)
                             .autocapitalization(.none)
                             .keyboardType(.emailAddress)
+                            
                     }
                     .padding()
                     .background(Color.gray.opacity(0.3))
