@@ -19,7 +19,7 @@ struct MainView: View {
                             }
                     }
                 }
-
+                
                 SideMenu(isShowing: $showMenu, SelectedTab: $selectionTab, onOptionSelect: { option in
                     NavigationSelectionTab = option
                 })
@@ -38,6 +38,14 @@ struct MainView: View {
                     })
                 }
             }
+            
+          
+                
+            
+            
+            
+            
+            
         }
     }
 }

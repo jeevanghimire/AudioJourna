@@ -16,9 +16,18 @@ struct LoginOrSignUpPage: View {
                         .scaledToFit()
                         .frame(width: 200, height: 200)
                         .padding(.bottom, 100)
-                    
+                
+                   Spacer()
+                    VStack{
+                            Text("A u d i o  J o u r n a")
+                                .font(.title)
+                                .fontWeight(.bold)
+                                .foregroundStyle(Color.red.opacity(0.6))
+                        Text("Capture Your Day, One Voice at a time")
+                            .font(.subheadline)
+                            .fontWeight(.heavy)
+                    }
                     Spacer()
-                    
                     HStack {
                         Spacer() // Push Login button to the left
                         

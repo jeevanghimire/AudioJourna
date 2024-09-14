@@ -21,6 +21,11 @@
 		D1C8605B2C9548900026A231 /* sideMenuOptionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8605A2C9548900026A231 /* sideMenuOptionModels.swift */; };
 		D1C8605D2C954C160026A231 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8605C2C954C160026A231 /* SideMenuRowView.swift */; };
 		D1C8605F2C9574420026A231 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8605E2C9574420026A231 /* ForgotPassword.swift */; };
+		D1C8B6352C95E10000FA3F69 /* TagSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8B6342C95E10000FA3F69 /* TagSearch.swift */; };
+		D1C8B63C2C95E62100FA3F69 /* BottomIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8B63B2C95E62100FA3F69 /* BottomIconsView.swift */; };
+		D1C8B63F2C95E67F00FA3F69 /* bottomMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8B63E2C95E67F00FA3F69 /* bottomMenuModel.swift */; };
+		D1C8B6412C95E93000FA3F69 /* BottomMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8B6402C95E93000FA3F69 /* BottomMainView.swift */; };
+		D1C8B6432C95E9EE00FA3F69 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8B6422C95E9EE00FA3F69 /* CalenderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +44,11 @@
 		D1C8605A2C9548900026A231 /* sideMenuOptionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuOptionModels.swift; sourceTree = "<group>"; };
 		D1C8605C2C954C160026A231 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
 		D1C8605E2C9574420026A231 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		D1C8B6342C95E10000FA3F69 /* TagSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSearch.swift; sourceTree = "<group>"; };
+		D1C8B63B2C95E62100FA3F69 /* BottomIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomIconsView.swift; sourceTree = "<group>"; };
+		D1C8B63E2C95E67F00FA3F69 /* bottomMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomMenuModel.swift; sourceTree = "<group>"; };
+		D1C8B6402C95E93000FA3F69 /* BottomMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMainView.swift; sourceTree = "<group>"; };
+		D1C8B6422C95E9EE00FA3F69 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		D19D14652C936873004793CD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D1C8B63D2C95E65900FA3F69 /* BottomMenuModel */,
 				D1C860592C95487E0026A231 /* sideMenuModels */,
 				D19D14572C936846004793CD /* AudioJournaApp.swift */,
 				D1770C2A2C9374A8005EE63A /* AuthManager.swift */,
@@ -129,8 +140,12 @@
 		D1C8604D2C9524A80026A231 /* MainProfile */ = {
 			isa = PBXGroup;
 			children = (
+				D1C8B63A2C95E61200FA3F69 /* BottomBar */,
+				D1C8B6392C95E5B800FA3F69 /* HomeView */,
+				D1C8B6382C95E3E000FA3F69 /* Profile */,
+				D1C8B6332C95E0ED00FA3F69 /* Search */,
 				D1C860582C9548170026A231 /* SideMenu */,
-				D1C860542C952A2B0026A231 /* MainView.swift */,
+				D1C8B6362C95E3C600FA3F69 /* Tag */,
 			);
 			path = MainProfile;
 			sourceTree = "<group>";
@@ -151,6 +166,62 @@
 				D1C8605A2C9548900026A231 /* sideMenuOptionModels.swift */,
 			);
 			path = sideMenuModels;
+			sourceTree = "<group>";
+		};
+		D1C8B6332C95E0ED00FA3F69 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D1C8B6342C95E10000FA3F69 /* TagSearch.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D1C8B6362C95E3C600FA3F69 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				D1C8B6372C95E3D900FA3F69 /* New Group */,
+			);
+			path = Tag;
+			sourceTree = "<group>";
+		};
+		D1C8B6372C95E3D900FA3F69 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D1C8B6382C95E3E000FA3F69 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D1C8B6392C95E5B800FA3F69 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				D1C860542C952A2B0026A231 /* MainView.swift */,
+				D1C8B6422C95E9EE00FA3F69 /* CalenderView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		D1C8B63A2C95E61200FA3F69 /* BottomBar */ = {
+			isa = PBXGroup;
+			children = (
+				D1C8B63B2C95E62100FA3F69 /* BottomIconsView.swift */,
+				D1C8B6402C95E93000FA3F69 /* BottomMainView.swift */,
+			);
+			path = BottomBar;
+			sourceTree = "<group>";
+		};
+		D1C8B63D2C95E65900FA3F69 /* BottomMenuModel */ = {
+			isa = PBXGroup;
+			children = (
+				D1C8B63E2C95E67F00FA3F69 /* bottomMenuModel.swift */,
+			);
+			path = BottomMenuModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +270,8 @@
 			mainGroup = D19D144B2C936846004793CD;
 			packageReferences = (
 				D1770C2C2C937720005EE63A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D1C8B6442C95F72100FA3F69 /* XCRemoteSwiftPackageReference "HorizontalCalendar" */,
+				D1A453D72C95F99F001A0812 /* XCRemoteSwiftPackageReference "CalendarView" */,
 			);
 			productRefGroup = D19D14552C936846004793CD /* Products */;
 			projectDirPath = "";
@@ -227,17 +300,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1C8B63C2C95E62100FA3F69 /* BottomIconsView.swift in Sources */,
 				D1C8605B2C9548900026A231 /* sideMenuOptionModels.swift in Sources */,
 				D1C860552C952A2B0026A231 /* MainView.swift in Sources */,
 				D1C860532C95260D0026A231 /* LoginInPage.swift in Sources */,
 				D1770C2B2C9374A8005EE63A /* AuthManager.swift in Sources */,
 				D1C860492C93E03B0026A231 /* SideMenu.swift in Sources */,
+				D1C8B6432C95E9EE00FA3F69 /* CalenderView.swift in Sources */,
 				D19D14582C936846004793CD /* AudioJournaApp.swift in Sources */,
 				D1C860572C95403E0026A231 /* SideMenuHeaderView.swift in Sources */,
 				D1C8605D2C954C160026A231 /* SideMenuRowView.swift in Sources */,
+				D1C8B6352C95E10000FA3F69 /* TagSearch.swift in Sources */,
 				D1C8604F2C95259B0026A231 /* SignUpPage.swift in Sources */,
 				D1C860512C9525E10026A231 /* LoginOrSignUpPage.swift in Sources */,
 				D1C8605F2C9574420026A231 /* ForgotPassword.swift in Sources */,
+				D1C8B6412C95E93000FA3F69 /* BottomMainView.swift in Sources */,
+				D1C8B63F2C95E67F00FA3F69 /* bottomMenuModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +537,22 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 11.2.0;
+			};
+		};
+		D1A453D72C95F99F001A0812 /* XCRemoteSwiftPackageReference "CalendarView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mijick/CalendarView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		D1C8B6442C95F72100FA3F69 /* XCRemoteSwiftPackageReference "HorizontalCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/salmaanahmed/HorizontalCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
